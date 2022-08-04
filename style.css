@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     background: #FFFFFF;
+    font-family: 'Poppins';
     
  }
  body{
@@ -99,9 +100,10 @@ background-color: transparent;
  
 
  .container{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
    
  }
 
@@ -111,7 +113,7 @@ background-color: transparent;
     font-weight: 600;
     font-size: 72px;
     line-height: 130%;
-    margin-top: 100px;
+   
  }
  .hero h1 span{
     color: #296CF0;
@@ -148,21 +150,21 @@ background-color: transparent;
  img.pad{
     position: absolute;
     left: 12.37%;
-    top: 102.46%;
+    top: 80%;
     
 }
 
 img.arrow{
     position: absolute;
     left: 12.37%;
-    top: 115.46%;
+    top: 90.46%;
     
 }
 
 img.arrow1{
     position: absolute;
     left: 12.37%;
-    top: 111.46%;
+    top: 94%;
     opacity: 20%;
     
      
@@ -171,17 +173,17 @@ img.arrow1{
 img.message{
    position: absolute;
    right: 4%;
-   top: 119%;
+   top: 95%;
   
   
 }
 
 .features{
-     position: absolute;
-     top: 130%;
+     
+    
     display: flex;
     gap: 3em;
-    margin-bottom: 8em;
+    
 
 }
 
@@ -207,8 +209,7 @@ img.message{
    opacity: 0.7;
 }
 .more-info2{
-   position: relative;
-     top: 40%;
+   
    display: flex;
    justify-content: space-between;
 }
@@ -224,7 +225,7 @@ img.message{
 
 .features2 h2{
    
-   font-size: 44px;
+   font-size: 30px;
 }
 
 .features2 h2 span{
@@ -273,6 +274,8 @@ padding: 2px ;
    margin-left: 70px;
    margin-right: 0%;
    border-radius: 20px;
+   height: 60vh;
+  
 }
  
 .features2-cta{
@@ -289,8 +292,7 @@ img.watch-vid-cta{
 
 
 .more-info3{
-   position: relative;
-     top: 70%;
+  
    display: flex;
    flex-direction: row-reverse;
    justify-content: space-between;
@@ -307,7 +309,7 @@ img.watch-vid-cta{
 
 .features3 h2{
    
-   font-size: 44px;
+   font-size: 30px;
 }
 
 .features3 h2 span{
@@ -354,9 +356,10 @@ padding: 2px ;
 .pos{
    background-color: #FF9296;
    padding:15px 50px;
-   
+   height: 60vh;
    margin-right: 85px;
    border-radius: 20px;
+   
 }
  
 .features2-cta{
@@ -366,15 +369,11 @@ padding: 2px ;
 }
 
 
-.more-info4{
-   position: relative;
-     top: 80%;
 
-     margin: 30px
-   }
+   
    .features4{
-    margin-left: auto;
-    margin-right: 0;
+ 
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -383,18 +382,17 @@ padding: 2px ;
      background-position: center;
      background-repeat: no-repeat;
      background-size: contain;
-     height: 737px;
-     width: 1214px;
-
-   
+     height: 100vh;
+     width: 100vw;
    }
+
+  
+
    .ft{
       display: flex;
      flex-direction: column;
      align-items: flex-start;
      gap: 4em;
-      position: absolute;
-      left: 12%;
       background-color: transparent;
     
      
@@ -405,7 +403,7 @@ padding: 2px ;
    .more-info4 h2{
      background-color: transparent;
      font-weight: 500;
-     font-size: 52px;
+     font-size: 30px;
    }
 
    .more-info4 p{
@@ -426,12 +424,13 @@ padding: 2px ;
    }
 
    .more-info5{
-      position: relative;
-      top: 150%;
+     
      display: flex;
      background: #296CF0;
      padding: 50px 50px 0;
      width: 85%;
+     height: 100vh;
+     margin-top: 144px;
   
  
  }
@@ -455,7 +454,7 @@ padding: 2px ;
    background-color: transparent;
    color: #FFFFFF;
    font-weight: 700;
-   font-size: 48px;
+   font-size: 30px;
  }
 
  .features5 p{
@@ -473,11 +472,11 @@ padding: 2px ;
 
  .download img{
    padding-right:20px;
+   height: 53px;
  }
 
  .more-info6{
-   position: relative;
-   top: 160%;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -514,9 +513,8 @@ padding: 2px ;
  }
 
 
- .footer {
-   position: relative;
-   top: 180%;
+ footer {
+  
    display: flex;
    flex-flow: row wrap;
    padding: 30px 30px 20px 30px;
@@ -535,7 +533,7 @@ padding: 2px ;
  }
  
  .footer__logo {
-   font-family: 'Pacifico', cursive;
+
    font-weight: 400;
    text-transform: lowercase;
    font-size: 2.5rem;
